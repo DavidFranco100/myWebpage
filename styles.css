@@ -6,3 +6,31 @@
     color: orange;
     font-size: 16pt;
 }
+
+.work, .education, .courses, .skills, .personal{
+    border: solid 4pt black;
+    margin: 3pt;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schools{
+    border: solid 4pt green;
+    margin: 3pt;
+}
+
+.rowe, .utrgv{
+    border: solid 4pt blue;
+    display: flex;
+}
+
+.image{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
